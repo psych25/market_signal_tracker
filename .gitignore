@@ -1,1 +1,29 @@
+# Virtual environments
 venv/
+.env
+.venv/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Test & coverage data
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Distribution / package build folders
+build/
+dist/
+*.egg-info/
+wheels/
+
+# Logs and temp files
+*.log
+.DS_Store
